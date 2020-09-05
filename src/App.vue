@@ -172,12 +172,16 @@ html, body {
 
   a {
     font-family: 'Cera Pro Medium';
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: #000;
     text-decoration: none;
     white-space: nowrap;
     line-height: 20px;
+
+    @media(min-width: 900px) {
+      font-size: 1.2rem;
+    }
 
     @media(min-width: 900px) {
       padding-left: 1rem;

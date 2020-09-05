@@ -2,7 +2,7 @@
   <div class="container">
     <div class="message-board">
       <p>Hüppe pikkus</p>
-      <h2>{{ current.jump }}</h2>
+      <h2>{{ current.jump }} m</h2>
       <p>Sõitjad:</p>
       <h2>{{ teamMembers[0] }},<br> {{ teamMembers[1]}}</h2>
     </div>
