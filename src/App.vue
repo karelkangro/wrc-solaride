@@ -156,6 +156,11 @@ html, body {
   li {
     margin: 0;
     padding: 0;
+    margin-top: 1rem;
+
+    @media(min-width: 900px) {
+      margin-top: 0;
+    }
 
     &:not(:last-child) {
 
@@ -174,7 +179,7 @@ html, body {
     white-space: nowrap;
     line-height: 20px;
 
-    @media(min-width: 576px) {
+    @media(min-width: 900px) {
       padding-left: 1rem;
       padding-right: 1rem;
     }
